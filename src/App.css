@@ -1,0 +1,36 @@
+* {
+    font-family: sans-serif !important;
+}
+
+.global-btn-invert, .global-btn {
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+
+.global-btn {
+    background-color: rgb(1, 133, 150);
+    color: white;
+}
+
+.global-btn-2 {
+    padding: 10px 15px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    background-color: rgb(57,157,255);
+    color: white;
+    width: max-content;
+}
+
+.global-btn-invert {
+    color: rgb(1, 133, 150);
+    background-color: white;
+}
+
+@media(max-width: 769px) {
+    .global-btn-invert, .global-btn {
+        padding: 7px 22px;
+        font-size: 12px;
+    }
+}
