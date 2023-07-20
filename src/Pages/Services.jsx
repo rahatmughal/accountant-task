@@ -35,10 +35,10 @@ const Services = () => {
                         <div className='md:w-full md:flex items-start justify-around lg:gap-lg md:gap-md'>
                             {servicesIconbox.map(item => (
                                 <div key={item.id} className='flex flex-col items-center justify-center w-[250px] gap-lg text-center py-xl'>
-                                    <div className={`lg:w-[80px] lg:h-[80px] md:w-[50px] md:h-[50px] flex items-center justify-center p-sm bg-${item.color} rounded-full`}>
+                                    <div className={`lg:w-[80px] lg:h-[80px] md:w-[50px] md:h-[50px] flex items-center justify-center p-sm ${item.bgcolor} rounded-full`}>
                                         <img src={item.icon} alt="" />
                                     </div>
-                                    <h1 className={`lg:text-xl md:text-lg font-bold text-${item.color}`}>{item.title}</h1>
+                                    <h1 className={`lg:text-xl md:text-lg font-bold ${item.color}`}>{item.title}</h1>
                                     <p className='lg:text-base md:text-sm'>{item.detail}</p>
                                 </div>
                             ))}

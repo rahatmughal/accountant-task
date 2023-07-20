@@ -58,7 +58,7 @@ function Footer() {
             </div>
 
             <div className="p-xl pb-[32px] flex items-center justify-between md:justify-around">
-                <span className='md:text-sm text-[8px]'>&copy; 2023 Handla Pa Spot. All rights reserved.</span>
+                <span className='md:text-sm text-[8px]'>&copy; 2023 <Link to='/' className='text-gray-200'>Accountant</Link>. All rights reserved.</span>
 
                 <div className='flex gap-md md:text-sm text-[8px]'>
                     {footerbottom.map(c=>(

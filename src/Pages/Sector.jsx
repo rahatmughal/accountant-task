@@ -31,8 +31,8 @@ const Sector = () => {
                             <h1 className='text-[rgb(57,143,228)] lg:text-4xl md:text-3xl text-2xl font-extrabold'>30% OFF</h1>
                             <span className='font-thin text-white lg:text-3xl md:text-xl text-xl'>ON ALL SERVICES</span>
                             <form className='p-md'>
-                                <input type="text" placeholder='Full Name' className='bg-white p-sm w-full mt-lg lg:text-base text-sm' />
-                                <input type="text" placeholder='Full Name' className='bg-white p-sm w-full mt-lg lg:text-base text-sm' />
+                                <input type="text" placeholder='Full Name' className='bg-white focus:outline-none p-sm w-full mt-lg lg:text-base text-sm' />
+                                <input type="text" placeholder='Last Name' className='bg-white focus:outline-none p-sm w-full mt-lg lg:text-base text-sm' />
                                 <button type='submit' className='global-btn-2 bg-[rgb(57,143,228)] mt-[30px] cursor-pointer lg:text-base text-sm my-lg'>SUBMIT</button>
                             </form>
 
